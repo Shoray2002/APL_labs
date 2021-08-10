@@ -1,3 +1,4 @@
+package Lab1;
 public class Q6 {
     public static void main(String args[]) {
       int z=8;

@@ -1,3 +1,4 @@
+package Lab1;
 public class Q4 {
     public static void main(String args[]) {
     //   10&50, 30||40, ~50, 60>>3, 70<<8, 55>>>2.

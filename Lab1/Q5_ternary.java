@@ -1,29 +1,20 @@
+package Lab1;
 import java.util.Scanner;
 
-public class Q5_ifelse {
+public class Q5_ternary {
    static  double maxer(double a,double b,double c, double d)
-    {double max=a;
-        
-    if (b > max)
-        max = b;
-    if (c > max)
-        max = c;
-    if (d > max)
-        max = d;
-     return max;
+    {double  tmp1 = a > b ? a : b;
+   double tmp2 = c > d ? c : d;
+
+   return tmp1 > tmp2 ? tmp1 : tmp2;
         
     }
     
     static  double miner(double a,double b,double c, double d)
-    {double min=a;
-        
-    if (b < min)
-        min = b;
-    if (c < min)
-        min = c;
-    if (d < min)
-        min = d;
-     return min;
+    {double  tmp1 = a < b ? a : b;
+   double tmp2 = c < d ? c : d;
+
+   return tmp1 < tmp2 ? tmp1 : tmp2;
         
     }
     
