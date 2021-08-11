@@ -94,8 +94,8 @@ public class calculator {
         do{
         System.out.print("\033[H\033[2J");  
     System.out.flush();
-        System.out.print("Choose the type of Calculator You want to use :");
-        System.out.print("Arithmetic or Logical (a/l) or Exit(e)");
+        System.out.print("Choose the type of Calculator You want to use :\n");
+        System.out.print("Arithmetic or Logical (a/l) or Exit(e)\n");
         Scanner p = new Scanner(System.in);
         String choice = p.next();
         switch(choice){
