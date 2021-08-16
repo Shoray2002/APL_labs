@@ -3,7 +3,7 @@ import java.io.*;
 class Q1 {
 
     static void printTwinPrime(int n) {
-
+        System.out.println("Twin primes: ");
         boolean prime[] = new boolean[n + 1];
 
         for (int i = 0; i <= n; i++)
