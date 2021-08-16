@@ -1,4 +1,4 @@
-# Lab2 Questions:
+# Lab2 Questions :
 
 Q1. Write a Java method to find all twin prime numbers less than 100 such as (3, 5), (5, 7), (7,11), (11, 13),………
 
