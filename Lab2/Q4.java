@@ -5,8 +5,8 @@ public class Q4 {
     public static void main(String[] args) {
         var vehicle = new Vehicle(0, 0);
         vehicle.setLocation(4.69, 21.30);
-        System.out.println("Vehicle position in kilometers (rounded): " + Arrays.toString(vehicle.inKilo()));
-        System.out.println("Vehicle position in meters: " + Arrays.toString(vehicle.inMeters()));
+        System.out.println("Vehicle position in Kilometers (rounded) : " + Arrays.toString(vehicle.inKilo()));
+        System.out.println("Vehicle position in Meters : " + Arrays.toString(vehicle.inMeters()));
     }
 }
 
