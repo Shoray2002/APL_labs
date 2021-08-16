@@ -2,9 +2,9 @@ package Lab2;
 
 public class Q3 {
     public static void main(String[] args) {
-        var m1 = new Mobile(30000, "Sony", "Shoray Singhal");
-        var m2 = new Mobile(60000, "Zeiss", "Kirti Singhal");
-        var m3 = new Mobile(95000, "Apple", "Priyanshu Upadhyay");
+        var m1 = new Mobile(40000, "Sony", "Shoray Singhal");
+        var m2 = new Mobile(75000, "Zeiss", "Kirti Singhal");
+        var m3 = new Mobile(105000, "Apple", "Priyanshu Upadhyay");
 
         m1.print();
         m2.print();
@@ -25,7 +25,7 @@ class Mobile {
     }
 
     public void print() {
-        System.out.println("Mobile cost: " + cost + "\nCamera: " + camera + "\nUsername: " + username);
+        System.out.println("Cost: " + cost + "\nCamera: " + camera + "\nUsername: " + username);
         System.out.println("------------------------------------------------------------");
     }
     
