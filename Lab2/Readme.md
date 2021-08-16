@@ -1,8 +1,8 @@
 # Lab2 Questions:
-Q1.  Write a Java method to find all twin prime numbers less than 100 such as (3, 5), (5, 7), (7,
-11), (11, 13),………
 
-Q2.     Write a program where you only define setter method in the class to make write-only.
+Q1. Write a Java method to find all twin prime numbers less than 100 such as (3, 5), (5, 7), (7,11), (11, 13),………
+
+Q2. Write a program where you only define setter method in the class to make write-only.
 Similarly, write a program where you only define getter method in the class to make
 read-only.
 
