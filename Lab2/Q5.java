@@ -9,7 +9,7 @@ public class Q5{
          System.out.println("3.Triangle");
          System.out.println("4.Square");
          System.out.println("5.Rectangle");
-         System.out.println("**********************************");
+         System.out.println("\n----------------------------------------\n");
          System.out.println("Choose the figure you want to find the AREA of:");
          int x=s.nextInt();
          switch(x){
