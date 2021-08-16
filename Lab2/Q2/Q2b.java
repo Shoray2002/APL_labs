@@ -1,4 +1,4 @@
-package Lab2;
+package Lab2.Q2;
 
 public class Q2b {
     public static void main(String []args){
