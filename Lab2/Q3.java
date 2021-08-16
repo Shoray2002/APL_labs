@@ -13,7 +13,7 @@ public class Q3 {
 }
 
 
-public class Mobile {
+class Mobile {
     private int cost;
     private String camera;
     public String username;

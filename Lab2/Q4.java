@@ -10,7 +10,7 @@ public class Q4 {
     }
 }
 
-public class Vehicle {
+class Vehicle {
     double locX, locY;
 
     public Vehicle(double locX, double locY) {
