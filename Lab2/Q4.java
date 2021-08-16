@@ -5,8 +5,8 @@ public class Q4 {
     public static void main(String[] args) {
         var vehicle = new Vehicle(0, 0);
         vehicle.setLocation(4.69, 21.30);
-        System.out.println("Vehicle position in kilometers (rounded): " + Arrays.toString(vehicle.getLocationKilometers()));
-        System.out.println("Vehicle position in meters: " + Arrays.toString(vehicle.getLocationMeters()));
+        System.out.println("Vehicle position in kilometers (rounded): " + Arrays.toString(vehicle.inKilo()));
+        System.out.println("Vehicle position in meters: " + Arrays.toString(vehicle.inMeters()));
     }
 }
 
@@ -18,10 +18,10 @@ public class Vehicle {
         this.locY = locY;
     }
 
-    public int[] getLocationKilometers() {
+    public int[] inKilo() {
         return new int[]{(int) Math.rint(locX), (int) Math.rint(locY)};
     }
-    public int[] getLocationMeters() {
+    public int[] inMeters() {
         return new int[]{(int) Math.rint(locX*1000), (int) Math.rint(locY*1000)};
     }
 
