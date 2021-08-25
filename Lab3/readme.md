@@ -21,6 +21,7 @@ and 2 that represent multiple inheritance can possible to implement using interf
 Similarly, write a specific scenario and then write a java program on that scenario like
 Question 1 and 2 that represent interface extends another interface instead of
 implements. (Do not use the examples which have been discussed in the lectures).
+
 Q4. Write a recursive definition in java that converts binary number to decimal number.
 
 Q5. Write a specific scenario and then write a java program on that scenario like Question 1
