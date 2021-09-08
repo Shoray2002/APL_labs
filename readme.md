@@ -8,3 +8,7 @@
 
 ## 4. [Lab4 Solutions](https://github.com/Shoray2002/APLlabs/tree/master/Lab4)
 
+## 5. [Lab5 Solutions](https://github.com/Shoray2002/APLlabs/tree/master/Lab5)
+
+
+
