@@ -10,5 +10,8 @@
 
 ## 5. [Lab5 Solutions](https://github.com/Shoray2002/APLlabs/tree/master/Lab5)
 
+## 6. [Lab6 Solutions](https://github.com/Shoray2002/APLlabs/tree/master/Lab6)
+
+
 
 
